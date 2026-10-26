@@ -44,7 +44,7 @@ a{color:inherit}
 .tile.dest{background:var(--yellow);color:var(--ink)}
 .codes svg{width:clamp(28px,6vw,52px);height:20px;flex:none;color:#7C8DA5}
 @keyframes flip{0%{transform:rotateX(90deg);opacity:0}60%{transform:rotateX(-14deg);opacity:1}100%{transform:rotateX(0)}}
-h1{font-family:var(--display);font-weight:900;font-size:clamp(3.5rem,12.5vw,9rem);line-height:.86;letter-spacing:-.005em;text-transform:none}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(3.5rem,12.5vw,9rem);line-height:.96;letter-spacing:-.005em;text-transform:none}
 h1 span{display:block}
 .facts{display:grid;grid-template-columns:1fr 1fr;gap:1rem 1.5rem;margin:1.75rem 0 1.75rem;max-width:34rem}
 .facts div{border-top:1px solid #34476A;padding-top:.5rem}
@@ -72,7 +72,7 @@ h1 span{display:block}
 
 .miles{background:var(--white);border-left:6px solid var(--cobalt);border-radius:0 10px 10px 0;padding:1rem 1.25rem;margin:2.25rem auto 0;display:flex;gap:.9rem;align-items:flex-start}
 .miles svg{flex:none;width:26px;height:26px;color:var(--cobalt);margin-top:.15rem}
-.miles p{max-width:60ch}
+.miles p{max-width:90ch}
 .miles b{font-weight:700}
 
 .section-head{margin:3rem 0 1.5rem}
@@ -166,6 +166,7 @@ footer .wrap{display:grid;gap:.4rem}
   .price.total .amt{font-size:2.8rem}
   .price .amt{font-size:2rem}
   .hero-top{flex-direction:column;align-items:flex-start;gap:.15rem}
+  .cta .btn{flex:1 1 100%;text-align:center}
 }
 @media (prefers-reduced-motion:reduce){
   .tile{animation:none}
@@ -236,6 +237,7 @@ footer .wrap{display:grid;gap:.4rem}
         <div class="card-body">
           <div class="route"><b>SFO</b><span class="line"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 14l20-9-7 16-3-7z"/></svg></span><b>DTW</b></div>
           <div class="cities"><span>San Francisco</span><span>Detroit</span></div>
+          <p class="stopline">Nonstop</p>
           <div class="legs">
             <div class="leg"><h4>Out</h4><p class="day">Thu, Nov 12</p><p class="time">8:26am</p><p class="path">SFO to DTW, nonstop</p></div>
             <div class="leg"><h4>Return</h4><p class="day">Mon, Nov 16</p><p class="time">8:15am</p><p class="path">DTW to SFO, nonstop</p></div>
@@ -292,6 +294,7 @@ footer .wrap{display:grid;gap:.4rem}
         <div class="card-body">
           <div class="route"><b>SFO</b><span class="line"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 14l20-9-7 16-3-7z"/></svg></span><b>DTW</b></div>
           <div class="cities"><span>San Francisco</span><span>Detroit</span></div>
+          <p class="stopline">Nonstop</p>
           <div class="legs">
             <div class="leg"><h4>Out</h4><p class="day">Fri, Nov 13</p><p class="time">8:10am</p><p class="path">SFO to DTW, nonstop</p></div>
             <div class="leg"><h4>Return</h4><p class="day">Mon, Nov 16</p><p class="time">8:15am</p><p class="path">DTW to SFO, nonstop</p></div>
